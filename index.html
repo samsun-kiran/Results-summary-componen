@@ -122,14 +122,14 @@
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
-      gap: 12px;
+      gap: 15px;
       font-size: 16px;
-      margin-top: 20px;
+      margin-top: 28px;
     }
 
     .innerContainer div {
       width: 100%;
-      padding: 12px;
+      padding: 15px;
       border-radius: 8px;
 
     }
@@ -180,7 +180,7 @@
 
     button {
       /* background: linear-gradient(180deg, hsl(252, 100%, 67%) 10%, hsla(256, 72%, 46%, 1) 50%); */
-      background: linear-gradient(180deg, hsla(256, 72%, 46%, 1) 0%, hsl(252, 100%, 67%) 0%, hsl(234, 85%, 45%) 100%);
+      background: hsl(224, 30%, 27%);
       outline: none;
       border: none;
       width: 100%;
@@ -190,6 +190,11 @@
       border-radius: 20px;
       cursor: pointer;
     }
+    button:active {
+      background: linear-gradient(180deg, hsla(256, 72%, 46%, 1) 0%, hsl(252, 100%, 67%) 0%, hsl(234, 85%, 45%) 100%);
+    }
+
+    
 
     @media screen and (max-width:600px) {
       body {
